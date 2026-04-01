@@ -63,7 +63,7 @@ main {
   }
 }
 
-body {
+html, body {
   margin: 0;
   height: auto;
   background-color: #000;
@@ -141,5 +141,12 @@ div:has(> .work-section) {
 @media screen and (max-width: 900px) {
   .techstack h2 {
     font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .techstack h2 {
+    font-size: 30px;
+    top: 90px;
   }
 }

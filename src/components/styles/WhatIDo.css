@@ -37,7 +37,7 @@
   height: 500px;
   margin-left: 200px;
   position: relative;
-  display: none;
+  display: flex;
 }
 .what-content {
   width: 450px;
@@ -383,6 +383,17 @@
   .what-box {
     max-width: calc(100% - 25px);
     margin: 0;
+  }
+  .what-box h2 {
+    font-size: 40px;
+    line-height: 42px;
+  }
+  .what-content h3 {
+    font-size: 20px;
+  }
+  .what-content p {
+    font-size: 11px;
+    line-height: 14px;
   }
 }
 @media only screen and (min-width: 1950px) {

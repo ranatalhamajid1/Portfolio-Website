@@ -16,7 +16,7 @@ const Contact = () => {
             </p>
             <h4>Phone</h4>
             <p>
-              <a href="tel:+923068888847" data-cursor="disable">
+              <a href="https://wa.me/923068888847" target="_blank" rel="noreferrer" data-cursor="disable">
                 0306-8888847
               </a>
             </p>

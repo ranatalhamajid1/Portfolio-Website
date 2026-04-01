@@ -54,7 +54,7 @@
 .work-flex::before,
 .work-flex::after {
   content: "";
-  width: calc(50000vw);
+  width: calc(500vw);
   height: 1px;
   background-color: #363636;
   position: absolute;
@@ -244,5 +244,36 @@
 
   .work-flex {
     height: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .work-box {
+    width: 85vw;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .work-flex {
+    margin-left: -10px;
+    padding-right: 20px;
+  }
+
+  .work-section h2 {
+    font-size: 38px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .work-title h3 {
+    font-size: 28px;
+  }
+
+  .work-info h4 {
+    font-size: 14px;
+  }
+
+  .work-info p {
+    font-size: 12px;
   }
 }
