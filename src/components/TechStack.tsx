@@ -1,4 +1,4 @@
-import * as THREE from "three";
+﻿import * as THREE from "three";
 import { useRef, useMemo, useState, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Environment } from "@react-three/drei";
@@ -13,14 +13,14 @@ import {
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "/images/html.png",
-  "/images/css.png",
-  "/images/javascript.webp",
-  "/images/mysql.webp",
-  "/images/premiere.png",
-  "/images/aftereffects.png",
-  "/images/capcut.png",
-  "/images/cybersec.png",
+  "./images/html.png",
+  "./images/css.png",
+  "./images/javascript.webp",
+  "./images/mysql.webp",
+  "./images/premiere.png",
+  "./images/aftereffects.png",
+  "./images/capcut.png",
+  "./images/cybersec.png",
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
@@ -199,7 +199,7 @@ const TechStack = () => {
           ))}
         </Physics>
         <Environment
-          files="/models/char_enviorment.hdr"
+          files="./models/char_enviorment.hdr"
           environmentIntensity={0.5}
           environmentRotation={[0, 4, 2]}
         />

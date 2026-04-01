@@ -1,4 +1,4 @@
-import "./styles/Work.css";
+﻿import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -12,7 +12,7 @@ const projects = [
     category: "Cybersecurity Website",
     tools: "HTML, CSS, JavaScript",
     features: "Password strength checker, breach-checking tools, dark/light mode",
-    image: "/images/spectraops.png",
+    image: "./images/spectraops.png",
     link: ""
   },
   {
@@ -20,7 +20,7 @@ const projects = [
     category: "DB Project",
     tools: "SQL, Full-Stack",
     features: "Designed ERD, developed SQL-based backend structure, documentation",
-    image: "/images/library-management.png",
+    image: "./images/library-management.png",
     link: ""
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     category: "Web Application",
     tools: "APIs, JavaScript",
     features: "Real-time calculators using APIs, charts, multilingual responsive UI",
-    image: "/images/financial-calculator.png",
+    image: "./images/financial-calculator.png",
     link: ""
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     category: "AI Video Editing",
     tools: "Premiere Pro, CapCut, After Effects",
     features: "Promotional videos, reels, motion graphics, subtitles & sound effects",
-    image: "/images/video-editing.png",
+    image: "./images/video-editing.png",
     link: "https://drive.google.com/drive/folders/1-iXu8c_Hwk9-9nOsQpRPMkc4kaHZcjEz?usp=drive_link"
   }
 ];

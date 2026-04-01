@@ -1,4 +1,4 @@
-import {
+﻿import {
   FaGithub,
   FaInstagram,
   FaLinkedinIn,
@@ -80,7 +80,7 @@ const SocialIcons = () => {
           </a>
         </span>
       </div>
-      <a className="resume-button" href="/Resume.pdf" target="_blank" rel="noopener noreferrer" data-cursor="disable">
+      <a className="resume-button" href="./Resume.pdf" target="_blank" rel="noopener noreferrer" data-cursor="disable">
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />
