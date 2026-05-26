@@ -1,4 +1,4 @@
-﻿import {
+import {
   FaGithub,
   FaInstagram,
   FaLinkedinIn,
@@ -60,27 +60,27 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com/ranatalhamajid1" target="_blank">
+          <a href="https://github.com/ranatalhamajid1" target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/rana-muhammad-talha-majid-25233228b/" target="_blank">
+          <a href="https://linkedin.com/in/rana-muhammad-talha-majid-25233228b" target="_blank" rel="noreferrer">
             <FaLinkedinIn />
           </a>
         </span>
         <span>
-          <a href="https://x.com/Talha_Rana7" target="_blank">
+          <a href="https://drive.google.com/drive/folders/1QiHfsQXcBhuoTmY8-36GREO7RCPUklFQ?usp=drive_link" target="_blank" rel="noreferrer">
             <FaXTwitter />
           </a>
         </span>
         <span>
-          <a href="https://www.instagram.com/ranatalhamajid/" target="_blank">
+          <a href="https://drive.google.com/drive/folders/1-iXu8c_Hwk9-9nOsQpRPMkc4kaHZcjEz?usp=drive_link" target="_blank" rel="noreferrer">
             <FaInstagram />
           </a>
         </span>
       </div>
-      <a className="resume-button" href="./Resume.pdf" target="_blank" rel="noopener noreferrer" data-cursor="disable">
+      <a className="resume-button" href="/images/resume%20(4).pdf" target="_blank" rel="noreferrer">
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />

@@ -2,6 +2,12 @@ import { MdArrowOutward, MdCopyright } from "react-icons/md";
 import "./styles/Contact.css";
 
 const Contact = () => {
+  const socialLinks = [
+    { label: "GitHub", href: "https://github.com/ranatalhamajid1" },
+    { label: "LinkedIn", href: "https://linkedin.com/in/rana-muhammad-talha-majid-25233228b" },
+    { label: "Portfolio", href: "https://drive.google.com/drive/folders/1QiHfsQXcBhuoTmY8-36GREO7RCPUklFQ?usp=drive_link" },
+  ];
+
   return (
     <div className="contact-section section-container" id="contact">
       <div className="contact-container">
@@ -16,52 +22,32 @@ const Contact = () => {
             </p>
             <h4>Phone</h4>
             <p>
-              <a href="https://wa.me/923068888847" target="_blank" rel="noreferrer" data-cursor="disable">
-                0306-8888847
+              <a href="tel:+923068888847" data-cursor="disable">
+                +92 306-8888847
               </a>
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
-            <a
-              href="https://github.com/ranatalhamajid1"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Github <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/rana-muhammad-talha-majid-25233228b/"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Linkedin <MdArrowOutward />
-            </a>
-            <a
-              href="https://x.com/Talha_Rana7"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Twitter <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com/ranatalhamajid/"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
-            </a>
+            {socialLinks.map((social) => (
+              <a
+                key={social.label}
+                href={social.href}
+                target="_blank"
+                rel="noreferrer"
+                data-cursor="disable"
+                className="contact-social"
+              >
+                {social.label} <MdArrowOutward />
+              </a>
+            ))}
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Talha Majid</span>
+              Designed and Developed <br /> by <span>Rana Talha Majid</span>
             </h2>
             <h5>
-              <MdCopyright /> 2024
+              <MdCopyright /> 2026
             </h5>
           </div>
         </div>

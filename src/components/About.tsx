@@ -6,11 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Motivated Computer Science student with hands-on experience in front-end development, video
-          editing, and cybersecurity fundamentals. Skilled in building responsive web applications, creating
-          engaging visual content, and optimizing user experience. A fast learner and problem solver with
-          strong analytical thinking and teamwork abilities, aiming to grow as a full-stack developer and
-          cybersecurity professional.
+          Motivated full stack developer and Computer Science student at UET
+          Taxila with hands-on experience in React.js, Next.js, PHP, MySQL,
+          REST APIs, and secure coding practices. I build responsive web
+          applications, solve real product problems, and keep learning across
+          development, DevOps, and cybersecurity.
         </p>
       </div>
     </div>

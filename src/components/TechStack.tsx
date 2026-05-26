@@ -1,4 +1,4 @@
-﻿import * as THREE from "three";
+import * as THREE from "three";
 import { useRef, useMemo, useState, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Environment } from "@react-three/drei";
@@ -10,17 +10,18 @@ import {
   CylinderCollider,
   RapierRigidBody,
 } from "@react-three/rapier";
+import { publicUrl } from "../utils/publicUrl";
 
 const textureLoader = new THREE.TextureLoader();
 const imageUrls = [
-  "./images/html.png",
-  "./images/css.png",
-  "./images/javascript.webp",
-  "./images/mysql.webp",
-  "./images/premiere.png",
-  "./images/aftereffects.png",
-  "./images/capcut.png",
-  "./images/cybersec.png",
+  publicUrl("images/react2.webp"),
+  publicUrl("images/next2.webp"),
+  publicUrl("images/node2.webp"),
+  publicUrl("images/express.webp"),
+  publicUrl("images/mongo.webp"),
+  publicUrl("images/mysql.webp"),
+  publicUrl("images/typescript.webp"),
+  publicUrl("images/javascript.webp"),
 ];
 const textures = imageUrls.map((url) => textureLoader.load(url));
 
@@ -168,7 +169,7 @@ const TechStack = () => {
 
   return (
     <div className="techstack">
-      <h2> My Skills & Techstack</h2>
+      <h2>Tooling & stack</h2>
 
       <Canvas
         shadows
@@ -199,7 +200,7 @@ const TechStack = () => {
           ))}
         </Physics>
         <Environment
-          files="./models/char_enviorment.hdr"
+          files={publicUrl("models/char_enviorment.hdr")}
           environmentIntensity={0.5}
           environmentRotation={[0, 4, 2]}
         />

@@ -87,23 +87,23 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>FRONT-END DEVELOPMENT</h3>
-              <h4>Description</h4>
+              <h3>BUILD</h3>
+              <h4>Frontend & backend</h4>
               <p>
-                Building responsive, user-friendly web applications with
-                clean code and optimized performance. Focused on creating
-                engaging UI experiences across all devices.
+                I design and develop responsive web applications with React,
+                Next.js, JavaScript, PHP, and REST APIs, with attention to UI
+                quality, clean structure, and performance.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">HTML5</div>
-                <div className="what-tags">CSS3</div>
+                <div className="what-tags">React.js</div>
+                <div className="what-tags">Next.js</div>
                 <div className="what-tags">JavaScript</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Responsive Design</div>
+                <div className="what-tags">Tailwind CSS</div>
+                <div className="what-tags">Bootstrap</div>
+                <div className="what-tags">PHP</div>
                 <div className="what-tags">MySQL</div>
-                <div className="what-tags">Git</div>
-                <div className="what-tags">UI/UX</div>
+                <div className="what-tags">REST APIs</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -127,23 +127,23 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>VIDEO EDITING & CYBERSECURITY</h3>
-              <h4>Description</h4>
+              <h3>SECURE</h3>
+              <h4>Security & delivery</h4>
               <p>
-                Creating engaging promotional videos, reels, and social media
-                content with motion graphics. Also exploring cybersecurity
-                fundamentals and penetration testing.
+                I bring secure coding, OWASP awareness, deployment hygiene, and
+                practical troubleshooting into the workflow so products stay
+                reliable after launch.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Premiere Pro</div>
+                <div className="what-tags">OWASP Top 10</div>
+                <div className="what-tags">Secure Coding</div>
+                <div className="what-tags">Pen Testing Basics</div>
+                <div className="what-tags">Git / GitHub</div>
+                <div className="what-tags">Postman</div>
+                <div className="what-tags">Hosting</div>
+                <div className="what-tags">Figma</div>
                 <div className="what-tags">CapCut</div>
-                <div className="what-tags">After Effects</div>
-                <div className="what-tags">Motion Graphics</div>
-                <div className="what-tags">Cybersecurity</div>
-                <div className="what-tags">PenTesting</div>
-                <div className="what-tags">Transitions</div>
-                <div className="what-tags">Sound Design</div>
               </div>
               <div className="what-arrow"></div>
             </div>

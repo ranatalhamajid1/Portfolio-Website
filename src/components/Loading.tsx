@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./styles/Loading.css";
 import { useLoading } from "../context/LoadingProvider";
 
@@ -46,8 +46,7 @@ const Loading = ({ percent }: { percent: number }) => {
     <>
       <div className="loading-header">
         <a href="/#" className="loader-title" data-cursor="disable">
-          <img src="./images/tm-logo.png" alt="TM Logo" className="loader-logo" />
-          <span className="loader-name">TALHA MAJID</span>
+          RTM
         </a>
         <div className={`loaderGame ${clicked && "loader-out"}`}>
           <div className="loaderGame-container">
@@ -63,9 +62,8 @@ const Loading = ({ percent }: { percent: number }) => {
       <div className="loading-screen">
         <div className="loading-marquee">
           <Marquee>
-            <span>Front-End Developer</span> <span>Cybersec Enthusiast</span>
-            <span>AI Video Editor</span> <span>Front-End Developer</span>
-            <span>Cybersec Enthusiast</span> <span>AI Video Editor</span>
+            <span> Full Stack Developer</span> <span>Cybersecurity Enthusiast</span>
+            <span> Full Stack Developer</span> <span>Cybersecurity Enthusiast</span>
           </Marquee>
         </div>
         <div
